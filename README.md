@@ -39,6 +39,7 @@ You can preview the production build with `npm run preview`.
 
 ## How this was created
 
+```
 npx sv create sveltekit-starter
 ┌ Welcome to the Svelte CLI! (v0.6.6)
 │
@@ -75,27 +76,28 @@ npx sv create sveltekit-starter
 ◇ Successfully formatted modified files
 │
 ◇ Project next steps ─────────────────────────────────────────────────────╮
-│ │
-│ 1: cd sveltekit-starter │
-│ 2: git init && git add -A && git commit -m "Initial commit" (optional) │
-│ 3: npm run dev -- --open │
-│ │
-│ To close the dev server, hit Ctrl-C │
-│ │
-│ Stuck? Visit us at https://svelte.dev/chat │
-│ │
+│                                                                          │
+│ 1: cd sveltekit-starter                                                  │
+│ 2: git init && git add -A && git commit -m "Initial commit" (optional)   │
+│ 3: npm run dev -- --open                                                 │
+│                                                                          │
+│ To close the dev server, hit Ctrl-C                                      │
+│                                                                          │
+│ Stuck? Visit us at https://svelte.dev/chat                               │
+│                                                                          │
 ├──────────────────────────────────────────────────────────────────────────╯
 │
 ◇ Add-on next steps ──────────────────────────────────────────────────╮
-│ │
-│ drizzle: │
-│ - You will need to set DATABASE_URL in your production environment │
-│ - Run npm run db:push to update your database schema │
-│ │
-│ lucia: │
-│ - Run npm run db:push to update your database schema │
-│ - Visit /demo/lucia route to view the demo │
-│ │
+│                                                                      │
+│ drizzle:                                                             │
+│ - You will need to set DATABASE_URL in your production environment   │
+│ - Run npm run db:push to update your database schema                 │
+│                                                                      │
+│ lucia:                                                               │
+│ - Run npm run db:push to update your database schema                 │
+│ - Visit /demo/lucia route to view the demo                           │
+│                                                                      │
 ├──────────────────────────────────────────────────────────────────────╯
 │
 └ You're all set!
+```
